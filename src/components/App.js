@@ -1,10 +1,11 @@
 import './App.css';
 import React from 'react';
+import Poll from './Poll';
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Polling App</h1>
+      <Poll />
     </div>
   );
 };
