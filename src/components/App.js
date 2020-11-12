@@ -3,10 +3,10 @@ import React from 'react';
 import Poll from './Poll';
 
 const options = [
-  { reponse: 'React' },
-  { reponse: 'Vue' },
-  { reponse: 'Angular' },
-  { reponse: 'Svelte' },
+  { response: 'React' },
+  { response: 'Vue' },
+  { response: 'Angular' },
+  { response: 'Svelte' },
 ];
 
 const App = () => {
