@@ -3,7 +3,7 @@ import React from 'react';
 const Poll = ({ options }) => {
   const renderedOptions = options.map((option) => {
     return (
-      <div>
+      <div key={option.itemId}>
         <input type="radio" />
         <label>{option.response}</label>
       </div>
