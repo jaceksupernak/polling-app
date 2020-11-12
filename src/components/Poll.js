@@ -3,7 +3,7 @@ import React from 'react';
 const Poll = ({ options }) => {
   const renderedOptions = options.map((option) => {
     return (
-      <div className="field">
+      <div>
         <input type="radio" />
         <label>{option.response}</label>
       </div>
@@ -15,7 +15,7 @@ const Poll = ({ options }) => {
         <h3 className="heading">
           Which Javascript framework do you currently prefer?
         </h3>
-        <div className="form">{renderedOptions}</div>
+        <div>{renderedOptions}</div>
       </div>
     </div>
   );

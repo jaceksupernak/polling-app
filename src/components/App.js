@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react';
 import Poll from './Poll';
 
-const pollOptions = [
+const options = [
   { reponse: 'React' },
   { reponse: 'Vue' },
   { reponse: 'Angular' },
@@ -12,7 +12,7 @@ const pollOptions = [
 const App = () => {
   return (
     <div className="App">
-      <Poll options={pollOptions} />
+      <Poll options={options} />
     </div>
   );
 };
