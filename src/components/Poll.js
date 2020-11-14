@@ -5,7 +5,7 @@ const Poll = ({ options }) => {
   const renderedOptions = options.map((option) => {
     return (
       <div className="poll-input" key={option.itemId}>
-        <input type="radio" />
+        <input type="radio" id={options.response} value={options.response} name="test_pollName"/>
         <label>{option.response}</label>
       </div>
     );
