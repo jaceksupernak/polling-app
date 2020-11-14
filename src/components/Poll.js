@@ -1,9 +1,10 @@
+import './Poll.css';
 import React from 'react';
 
 const Poll = ({ options }) => {
   const renderedOptions = options.map((option) => {
     return (
-      <div key={option.itemId}>
+      <div className="poll-input" key={option.itemId}>
         <input type="radio" />
         <label>{option.response}</label>
       </div>
